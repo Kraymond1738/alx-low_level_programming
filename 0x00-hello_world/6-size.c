@@ -4,7 +4,7 @@
  *
  * Return: gives 0 (true)
  */
-int main(0)
+int main(void)
 {char a;
 int b;
 long int c;
