@@ -1,22 +1,23 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - task 8
- * prints numbers of base 16
- * Return: 0
+ * main - Entry point
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char a;
-	char b = '0';
+	char c;
+	char d = '0';
 
-	while (b <= '9')
+	while (d <= '9')
 	{
-		putchar(b);
-		b++;
+		putchar(d);
+		d++;
 	}
-	for (a = 'a'; a <= 'f'; a++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(a);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
