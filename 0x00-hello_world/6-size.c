@@ -1,20 +1,15 @@
 #include <stdio.h>
 /**
- * main - prints size of var types
+ * main - prints size of characterz
  *
- * Return: Always 0 (Success)
+ * Return: gives 0 (true)
  */
-int main(void)
+int main(0)
 {char a;
 int b;
 long int c;
 long long int d;
 float e;
-
-printf("size of a char:%d byte(s)\n", sizeof(a));
-printf("size of an int:%d byte(s)\n", sizeof(b));
-printf("size of a long int:%d byte(s)\n", sizeof(c));
-printf("size of a long long int:%d byte(s)\n", sizeof(d));
-printf("size of a float:%d byte(s)\n", sizeof(e));
+printf("size of a char: %d byte(s)\n size of an int: %d byte(s)\n size of a long int: %d byte(s)\n size of a long long int: %d byte(s)\n size of a float: %d byte(s)\n", sizeof(a), sizeof(b), sizeof(c), sizeof(d), sizeof(e));
 return (0);
 }
