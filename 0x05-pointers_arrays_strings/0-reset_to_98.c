@@ -4,15 +4,7 @@
  *
  * Return: zero
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n = 402;
-	int  *pt = &n;
-
-	_putchar("n=%d\n", *pt + '0');
-
-	reset_to_98(&n);
-
-	_putchar("n=%d\n", *pt + '0');
-	return (0);
+	*n = 98;
 }
