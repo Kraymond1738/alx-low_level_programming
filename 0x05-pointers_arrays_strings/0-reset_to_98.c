@@ -9,7 +9,7 @@ int main(void)
 	int n = 402;
 	int  *pt = &n;
 
-	_putchar("n=%d\n", n);
+	_putchar("n=%d\n", n + '0');
 
 	reset_to_98(&n);
 
