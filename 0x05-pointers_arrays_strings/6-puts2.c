@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - prints characters when divided by 2 give  a remainder 0
- *
+ *@str: string
  * Return: zero
  */
 void puts2(char *str)
