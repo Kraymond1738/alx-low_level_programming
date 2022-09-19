@@ -38,6 +38,6 @@ int length_string(char *s)
 	{
 		++strg_leg;
 		c++;
-		return (strg_leg);
 	}
+	return (strg_leg);
 }

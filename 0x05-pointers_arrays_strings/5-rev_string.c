@@ -34,7 +34,7 @@ int strg_length(char *s)
 	{
 		en++;
 		i++;
-		return (en);
 	}
+	return (en);
 }
 
