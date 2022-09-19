@@ -1,5 +1,5 @@
-#ifndefine void
-#ifdefine void
+#ifndef HOLBERTON_H_INCLUDE
+#define HOLBERTON_H_INCLUDE
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
