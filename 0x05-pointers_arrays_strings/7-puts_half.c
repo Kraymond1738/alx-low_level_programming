@@ -4,7 +4,7 @@
  * @str: stirng
  * Return: characters half the string
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int a, b, c, d;
 
