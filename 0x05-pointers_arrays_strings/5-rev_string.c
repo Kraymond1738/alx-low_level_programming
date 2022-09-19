@@ -1,4 +1,7 @@
 #include "main.h"
+
+int strg_length(char *);
+
 /**
  * rev_string - a functin that reverses a string
  * @s: string
@@ -22,7 +25,7 @@ void rev_string(char *s)
  * @s:sring
  * Return: length of string
  */
-int strg_length(char s)
+int strg_length(char *s)
 {
 	int i = 0;
 	int en = 0;

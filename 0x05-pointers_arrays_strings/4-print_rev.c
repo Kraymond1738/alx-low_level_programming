@@ -1,4 +1,5 @@
 #include "main.h"
+int length_string(char *);
 /**
  * print_rev - prints a string in reverse folowed by a new line
  *
@@ -10,9 +11,10 @@
 void print_rev(char *s)
 {
 	int a = 0;
+	int strg_leg;
 
 	strg_leg = length_string(s);
-	for (a = length - 1; a >= 0; a--)
+	for (a = strg_leg - 1; a >= 0; a--)
 	{
 		_putchar(s[a]);
 	}
@@ -27,15 +29,15 @@ void print_rev(char *s)
  * Return: string length
  */
 
-void  length_string(char *s)
+int length_string(char *s)
 {
-	int b = 0;
+	int strg_leg = 0;
 	int c = 0;
 
 	while (s[c] != '\0')
 	{
-		b++;
+		++strg_leg;
 		c++;
-		return (b);
+		return (strg_leg);
 	}
 }
