@@ -19,11 +19,9 @@ void rev_string(char *s)
 	len = strg_length(s);
 	for (a = 0, b = len - 1; !(a >= b); a++, b--)
 	{
-
-		
 		c = s[a];
 		s[a] = s[b];
-		s[b] = c;	
+		s[b] = c;
 	}
 }
 /**
