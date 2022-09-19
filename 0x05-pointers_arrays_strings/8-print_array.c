@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	{
 		if (runs == n - 1)
 		{
-			printf("%d\n", *(a + runs));
+			printf("%d", *(a + runs));
 		}
 		else
 		{
