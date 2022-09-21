@@ -3,9 +3,9 @@
 int length(char *s);
 
 /**
- * _strcat - Concatenate two strings
- * @dest: Target of concatenation
- * @src: String to be concatenated
+ * _strcat - the strings are joined
+ * @dest: where they are joined
+ * @src: String to be joined
  *
  * Return: dest
  */
@@ -15,35 +15,35 @@ char *_strcat(char *dest, char *src)
 	int a;
 
 	len = length(dest);
-	j = 0;
-	while (src[j] != '\0')
+	a = 0;
+	while (src[a] != '\0')
 	{
-		dest[len + j] = src[j];
-		j++;
+		dest[len + j] = src[a];
+		a++;
 	}
-	dest[len + j] = '\0';
+	dest[len + a] = '\0';
 
 	return (dest);
 }
 
 /**
- * length - returns the length of a string
- * @s: String whose length we wish to determine
+ * length - returns length
+ * @s: String
  *
- * Return: Length of string
+ * Return: length of the string
  */
 int length(char *s)
 {
 	int length;
 	int i;
 
-	length = 0;
+	leng = 0;
 	i = 0;
 	while (s[i] != '\0')
 	{
-		++length;
+		++leng;
 		i++;
 	}
 
-	return (length);
+	return (leng);
 }
