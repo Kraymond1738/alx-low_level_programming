@@ -1,42 +1,49 @@
 #include "main.h"
+
+int length(char *s);
+
 /**
- * _strcat - concatenates two strings
- *@dest: where the string is going to be written
- *@src: string that are going to be joine
- * Return: Returns a pointer to the resulting string dest
+ * _strcat - Concatenate two strings
+ * @dest: Target of concatenation
+ * @src: String to be concatenated
+ *
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int leng;
-	int a = 0;
+	int len;
+	int a;
 
-	leng = length;
-	(dest);
-
-	while (src[a] != '\0')
+	len = length(dest);
+	j = 0;
+	while (src[j] != '\0')
 	{
-		dest[len + a] = src[a];
-		a++;
+		dest[len + j] = src[j];
+		j++;
 	}
-	dest[len + a] = '\0';
+	dest[len + j] = '\0';
+
 	return (dest);
 }
 
 /**
- * length - calculates lenght of a string
- * @s: string
- * Return: length of a string
+ * length - returns the length of a string
+ * @s: String whose length we wish to determine
+ *
+ * Return: Length of string
  */
 int length(char *s)
 {
-	int len = 0;
-	int i = 0;
-	int a;
+	int length;
+	int i;
 
-	while (dest[i] != '\0')
+	length = 0;
+	i = 0;
+	while (s[i] != '\0')
 	{
-		++len;
+		++length;
 		i++;
 	}
-	return (len);
+
+	return (length);
 }
