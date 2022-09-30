@@ -1,1 +1,1 @@
-This repo contains solutions to alx-low_level_programming
+This directory contains codes thay answe tasks for alx alx/alx-low_level_programming
