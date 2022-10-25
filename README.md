@@ -1,1 +1,6 @@
-This directory contains codes thay answers for tasks for alx alx/alx-low_level_programming singly linked lists
+# Welcome to my repo
+## My name is Kasumba Raymond
+```
+This repo contains codes that are solutions to ALX projects
+
+```
